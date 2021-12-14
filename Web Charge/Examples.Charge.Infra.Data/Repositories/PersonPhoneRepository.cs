@@ -43,7 +43,7 @@ namespace Examples.Charge.Infra.Data.Repositories
             if (id == 0)
                 return 1;
 
-            return id;
+            return id + 1;
         }
         public async Task<bool> DeletePhoneAsync(int personPhoneId)
         {
